@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 import './App.css';
 
 class App extends Component {
-  
   constructor(props){
     super(props);
     this.state= {
@@ -40,8 +39,7 @@ class App extends Component {
     }
     
     this.addform.reset();
-  }
-    
+   }
   }
 
   removeItem(item){
@@ -57,7 +55,6 @@ class App extends Component {
        message :'No Items in The List, Add some Items.',
      })
    }
-
   }
 
   render() {
@@ -86,10 +83,8 @@ class App extends Component {
   
     {
       buyItems.length > 0 && 
-  
 
-
-        <table className="table">
+  <table className="table">
   <thead>
      <tr>
       <th scope="col">#</th>
